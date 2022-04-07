@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" 
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" 
+        crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-content d-f-j-sb-a-c m-0-auto">
+        <div class="logo">
+          <img src="./img/logo.png" alt="logo" />
+        </div>
+        <div class="links">
+          <ul class="w-100 d-f-j-sb-a-c">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Time Tracking</a></li>
+            <li><a href="#">Price</a></li>
+            <li><a href="#">Download</a></li>
+            <li><a href="#">Log in</a></li>
+            <li><a href="#" class="get-started">Get Started</a></li>
+          </ul>
+        </div>
+        <div class="navbar">
+            <i class="fas fa-bars" onclick="toggleMediaLinks('show')"></i>
+        </div>
+        <div class="media-links">
+            <div class="remove-navbar">
+                <i class="fas fa-times" onclick="toggleMediaLinks('remove')"></i>
+            </div>
+            <ul class="w-100">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Time Tracking</a></li>
+              <li><a href="#">Price</a></li>
+              <li><a href="#">Download</a></li>
+              <li><a href="#">Log in</a></li>
+              <li><a href="#" class="get-started">Get Started</a></li>
+            </ul>
+          </div>
+      </div>
+    </header>
+    <main>
+      <div class="billable-hours w-100" >
+        <div class="content-billable-hours m-0-auto">
+          <div class="title-billable d-flex">
+            <img src="./img/Mask Group.png" alt="title-logo" />
+            <p class="title-billable_p">Billable Hours</p>
+          </div>
+          <div>
+            <p class="info-billable w-100">
+              Set an hourly rate to your contracts to mark them as billable. Get
+              amount reports and generate invoices to get paid.
+            </p>
+          </div>
+          <div class="link-billable">
+            <ul class="ul-billable">
+              <li>
+                <a href="#" class="start-7-days">Start 7 Days Free Trial</a>
+              </li>
+              <li>
+                <a href="#" class="info-start-7-days"
+                  >Use now, pay in 30 days. No credit card required</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="img-billable w-100 m-0-auto">
+            <img src="./img/billable.png" alt="billable" class="w-100" />
+          </div>
+          <div class="amount-reports w-100 m-0-auto d-f-j-sb-a-c">
+            <img
+              class="amount-reports-img"
+              src="./img/amount-reports.png"
+              alt="amount-img"
+            />
+            <div class="content-amount-reports">
+              <p class="amount-reports-title">Amount Reports</p>
+              <p class="first-paragraph">
+                If you’re working on an hourly rate, it will be a good idea to
+                make your contracts billable by adding an hourly rate in the
+                contract's settings.
+              </p>
+              <p class="second-paragraph">
+                By doing so your tracked time will be converted into an amount
+                and you will be able to see the reports both in hours and
+                amounts. Amount reports show the billed amount of each member by
+                day, week or month.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="permissions-financial w-100" data-aos="fade-in">
+        <div class="content-permissions m-0-auto d-f-j-sb-a-c">
+          <div class="permissions-info">
+            <p class="title-permissions">
+              Permissions to Financial Information
+            </p>
+            <p>
+              The owner is eligible to give visibility of the contract's rate to
+              certain team members. You can set up the rate visibility from the
+              member’s list.
+            </p>
+            <p>
+              Setting “Show hourly rate” will mean the member is able to see all
+              financial information related to his/her contract and role
+              permission.
+            </p>
+            <p>
+              If a member has no permission to financial information, he/she
+              cannot view any kind of financial information, as well as is not
+              able to generate invoices.
+            </p>
+          </div>
+          <div class="img-permissions">
+            <img class="w-100" src="./img/permissions.png" alt="permissions" />
+          </div>
+        </div>
+      </div>
+      <div class="workspace-permissions w-100" data-aos="fade-up">
+        <div class="content-workspace-permissions m-0-auto">
+          <p class="title-workspace">Workspace Permissions</p>
+          <p class="member-types-workspace">
+            Financial Permissions for Member Types
+          </p>
+          <div class="work-types w-100 m-0-auto d-f-j-sb-a-c">
+            <div class="wokers-profession">
+              <ul>
+                <li>
+                  <div class="d-f-a-c">
+                    <img src="./img/users/owner.png" alt="owner-icon" />
+                    <span class="title-worker">Owner</span>
+                  </div>
+                  <p class="about-owner">
+                    <span>Owner</span> is eligible to set up the access of
+                    financial information on a workspace level.
+                  </p>
+                </li>
+                <li class="d-f-a-c">
+                  <img
+                    src="./img/users/executive-menager.png"
+                    alt="executive-menager-icon"
+                  />
+                  <span class="title-worker">Executive Manager</span>
+                </li>
+                <li class="d-f-a-c">
+                  <img
+                    src="./img/users/project-menager.png"
+                    alt="project-menager-icon"
+                  />
+                  <span class="title-worker">Project Manager</span>
+                </li>
+                <li class="d-f-a-c">
+                  <img src="./img/users/employee.png" alt="employee-icon" />
+                  <span class="title-worker">Employee</span>
+                </li>
+                <li class="d-f-a-c">
+                  <img src="./img/users/client.png" alt="client-icon" />
+                  <span class="title-worker">Client</span>
+                </li>
+              </ul>
+            </div>
+            <div class="img-workers">
+              <img class="w-100" src="./img/workers.png" alt="workers-img" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="features w-100">
+        <div class="content-features m-0-auto">
+          <p class="title-features">Features</p>
+          <p class="info-features">Get The Most Out of Your Work</p>
+          <div class="cards m-0-auto d-f-j-sb-a-c">
+            <div class="card">
+              <div class="card-logo">
+                <img src="./img/card(1).png" alt="" />
+              </div>
+              <div class="card-title">Invoice Generating</div>
+              <div class="card-content">
+                Track billable time and instantly generate the amount to be paid
+                in a form of invoice to send to your clients.
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-logo">
+                <img src="./img/card(2).png" alt="" />
+              </div>
+              <div class="card-title">Real-time reports</div>
+              <div class="card-content">
+                Have a full understanding of where your team is heading by
+                analyzing their performance in real-time reports.
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-logo">
+                <img src="./img/card(3).png" alt="" />
+              </div>
+              <div class="card-title">Time Tracking with Screenshots</div>
+              <div class="card-content">
+                See how your employees are spending their working time with the
+                help of 4 different screenshot modes.
+              </div>
+            </div>
+          </div>
+          <p class="more-features">
+            <a href="#">More Features</a>
+          </p>
+        </div>
+      </div>
+      <div class="faqs w-100">
+        <div class="content-faqs m-0-auto">
+          <p class="title-faqs">FAQs</p>
+          <div class="m-0-auto questions">
+            <div class="question" data-aos="fade-right">
+              <div class="title-of-question">
+                Can I choose the currency for the generated amount?
+              </div>
+              <div class="answer">
+                Yes, if you are the Owner of the workspace you can choose your
+                preferred currency from the drop-down list of profile settings.
+              </div>
+            </div>
+            <div class="question" data-aos="fade-left">
+              <div class="title-of-question">
+                Where can I view the amount reports?
+              </div>
+              <div class="answer">
+                You can find the amount reports on the timesheet reports page.
+                You can view them both on hours and amounts.
+              </div>
+            </div>
+            <div class="question" data-aos="fade-right">
+              <div class="title-of-question">How can I set an hourly rate?</div>
+              <div class="answer">
+                You can go to members page from your dashboard, select your
+                preferred contract and put an hourly rate for a certain team
+                member.
+              </div>
+            </div>
+            <div class="question" data-aos="fade-left">
+              <div class="title-of-question">Who can set an hourly rate?</div>
+              <div class="answer">
+                The owner and also the executive manager if the owner gives
+                permission to him/her.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="webwork w-100">
+        <div class="content-webwork m-0-auto">
+          <p class="title-webwork">
+            Track Billable Hours with WebWork
+            <br />
+            Time Tracker
+          </p>
+          <div class="email w-100 m-0-auto">
+            <div class="input-fields-email m-0-auto w-100">
+              <input
+                class="email-input"
+                type="email"
+                placeholder="Your e-mail adress"
+              />
+              <input
+                class="start-7-days cursor-pointer"
+                type="button"
+                value="Start 7 Days Free Trial"
+              />
+            </div>
+            <div>
+              <a class="link-in-email" href="#"
+                >Use now, pay in 30 days. No credit card required</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-content m-0-auto d-f-j-sb-a-c">
+        <ul>
+          <li>Time Tracking Software</li>
+          <li>Features</li>
+          <li>Pricing</li>
+          <li>Start free trial</li>
+          <li>Time tracking with screenshots</li>
+        </ul>
+        <ul>
+          <li>Integration</li>
+          <li>Asana</li>
+          <li>Jira</li>
+          <li>Bitbucket</li>
+          <li>See all</li>
+        </ul>
+        <ul>
+          <li>Powerful Yet Simple</li>
+          <li>Monitor Employees</li>
+          <li>Boost Productivity</li>
+          <li>How to save time</li>
+          <li>Download tracker</li>
+        </ul>
+        <ul>
+          <li>Resources</li>
+          <li>Sitemap</li>
+          <li>Privacy Policy</li>
+          <li>Terms of service</li>
+          <li>Contact Us</li>
+        </ul>
+      </div>
+      <div class="the-end w-100">
+        <div class="content-end m-0-auto d-f-j-sb-a-c">
+            <div class="img-end d-f-a-c">
+                <img src="./img/logo.png" alt="">
+                <p> &#169 2021</p>
+            </div>
+            <div class="websites">
+                <ul class="d-f-j-sb-a-c">
+                    <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                    <li><a href=""><i class="fab fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
